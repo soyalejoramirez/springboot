@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>co.alejo</groupId>
-	<artifactId>libreria</artifactId>
+	<artifactId>bookstore</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>libreria</name>
-	<description>Demo project for Spring Boot</description>
+	<name>bookstore</name>
+	<description>Ejemplo de un proyecto con Spring Boot y H2.</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>

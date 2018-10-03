@@ -1,12 +1,12 @@
-package co.alejo.libreria;
+package co.alejo.bookstore;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LibreriaApplication {
+public class BookstoreApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LibreriaApplication.class, args);
+		SpringApplication.run(BookstoreApplication.class, args);
 	}
 }

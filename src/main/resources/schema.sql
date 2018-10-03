@@ -1,10 +1,10 @@
-CREATE TABLE IF NOT EXISTS LIBROS
+CREATE TABLE IF NOT EXISTS BOOKS
 (
    isbn integer not null AUTO_INCREMENT,
-   nombre varchar(255) not null,
-   autor varchar(255) not null,
-   editorial varchar(50),
-   genero varchar(50),
+   name varchar(255) not null,
+   author varchar(255) not null,
+   publisher varchar(50),
+   genre varchar(50),
    
    primary key(isbn)
 );

@@ -1,7 +1,7 @@
-DELETE LIBROS;
+DELETE BOOKS;
 
-INSERT INTO LIBROS (nombre, autor, editorial, genero) 
-VALUES ('Hambriento', 'NACH', 'Planeta', 'Poesía');
+INSERT INTO BOOKS (name, author, publisher, genre)
+VALUES ('Hambriento', 'NACH', 'Planeta', 'Poetry');
 
-INSERT INTO LIBROS (nombre, autor, editorial, genero)
-VALUES ('El olvido que seremos', 'Héctor Abad Faciolince', 'Planeta', 'Biografía');
+INSERT INTO BOOKS (name, author, publisher, genre)
+VALUES ('El olvido que seremos', 'Héctor Abad Faciolince', 'Planeta', 'Biography');
