@@ -16,15 +16,6 @@ public class Book {
 	private String publisher;
 	private String genre;
 	
-	public Book() {}
-	
-	public Book(String name, String author, String publisher, String genre) {
-		this.name = name;
-		this.author = author;
-		this.publisher = publisher;
-		this.genre = genre;
-	}
-	
 	public int getIsbn() {
 		return isbn;
 	}
