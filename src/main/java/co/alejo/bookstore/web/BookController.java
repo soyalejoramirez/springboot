@@ -27,7 +27,6 @@ public class BookController {
 	
 	@GetMapping(value = "/author/{author}", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
 	public List<Book> getByAuthor(@PathVariable("author") String author) {
-		System.out.println(author);
 		return bookService.getAllByAuthor(author);
 	}
 	

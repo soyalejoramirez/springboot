@@ -25,7 +25,7 @@ public class BookRepositoryImpl implements BookRepository {
 	
 	@Override
 	public List<Book> findByAuthor(String author) {
-		return h2BookRepo.findAllByAuthor(author);
+		return h2BookRepo.findByAuthor(author);
 	}
 
 	@Override
