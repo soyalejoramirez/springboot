@@ -30,7 +30,7 @@ public class BookController {
 		return bookService.getAllByAuthor(author);
 	}
 	
-	@PostMapping(value = "/new", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+	@PostMapping(value = "/new", consumes = MediaType.APPLICATION_JSON_UTF8_VALUE, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
 	public Book newBook(@RequestBody Book b) {
 		return bookService.newBook(b);
 	}
